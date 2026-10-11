@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ff9bb3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    background-color: #ff9bb3;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner-bg {
+    position: absolute;
+    left: 0;
+    width: 550px;
+    height: 220px;
+    background-color: #7a3e4d; 
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.bg-text {
+    color: #ff9bb3;
+    font-size: 110px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.cupcake-image {
+    position: absolute;
+    left: 420px;
+    bottom: 70px;
+    z-index: 3;
+}
+
+.cupcake-image img {
+    width: 250px;
+    height: auto;
+}
+
+.content-section {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    width: 320px;
+    z-index: 2;
+    text-align: right;
+}
+
+.brand-title {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    color: #5a2835;
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.shop-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.shop-btn:hover {
+    background-color: #ffffff;
+    color: #7a3e4d;
+}
